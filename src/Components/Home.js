@@ -32,7 +32,7 @@ const Home = () => {
           {modal && (
             <div className='modal'>
               <div onClick={toggleModal} className='overlay'></div>
-              <div className='modal-content'>
+              <div className='modal-content1'>
                 <h2 className='desc-heading'>Bookings</h2> <span><button className='close-modal' onClick={toggleModal}>X</button></span>
                 <Reservations/>
               </div>

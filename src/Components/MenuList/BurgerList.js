@@ -32,12 +32,6 @@ const BurgerList = () => {
             desc: 'southern spicy fried chicken, bacon, shredded lettuce & blue cheese sauce.',
             price: 7500,
         },
-        {
-            id: 6,
-            dishName: 'Hot Honey Hen',
-            desc: 'spicy fried chicken, mayo pickled, chopped onions & a generous drizzle of hot honey.',
-            price: 7500,
-        },
     ]
 
   return (

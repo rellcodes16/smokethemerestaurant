@@ -23,18 +23,12 @@ const StartersList = () => {
         },
         {
             id: 4,
-            dishName: 'Lobster in Olive Oil',
-            desc: 'poached lobster served in herb infused olive oil with basil, lemon & parmesan cheese.',
-            price: 16000,
-        },
-        {
-            id: 5,
             dishName: 'Hot Honey Prawns',
             desc: 'crispy prawns served with our hot honey sauce, chili & sesame.',
             price: 13000,
         },
         {
-            id: 6,
+            id: 5,
             dishName: 'Suya Drumettes',
             desc: 'marinated in our house suya blend, sliced tomatoes, onions & served with a yogurt dip.',
             price: 4500,

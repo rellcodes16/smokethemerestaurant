@@ -99,12 +99,10 @@ body.active-modal6, body.active-modal7, body.active-modal8, body.active-modal9, 
     background: white;
     padding: 12px 32px;
     border-radius: 7px;
-    max-width: 400px;
-    min-width: 100px;
-    min-height: 200px;
-    max-height: 700px;
+    min-width: 300px;
+    max-width: 800px;
+    min-height: 100px;
     margin: 50px auto;
-    width: 80%;
     color: black;
 }
 
