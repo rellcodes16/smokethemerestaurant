@@ -1,0 +1,82 @@
+.about{
+    min-height: 400px;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+}
+  
+.about-container{
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding: 40px 0;
+}
+  
+.about-container h2{
+    text-align: center;
+}
+  
+.about-container .steak-slice{
+    padding-top: 20px;
+    width: 50px;
+    height: 45px;
+}
+  
+.about-container .first-row img{
+    width: 350px;
+    height: auto;
+}
+  
+.about-container .second-row .chef{
+    width: 250px;
+    height: auto;
+}
+  
+.about-container .first-desc{
+    padding-top: 80px;
+}
+.about-container .second-desc{
+    padding-top: 80px;
+    z-index: 1;
+}
+  
+.about-container .first-row{
+    display: flex;
+}
+  
+.about-container .second-row{
+    display: flex;
+}
+  
+.about-container .pepper{
+    position: absolute;
+    width: 280px;
+    height: auto;
+    top: 5;
+    left: 55;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .steakplate, .chef{
+        display: none;
+    }
+    .first-row, .second-row{
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .first-row, .second-row{
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .first-row, .second-row{
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .first-row, .second-row{
+        padding: 0 27px 0 27px;
+    }
+}

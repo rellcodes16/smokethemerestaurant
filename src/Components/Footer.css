@@ -1,0 +1,76 @@
+.footer{
+    min-height: 200px;
+    background-color: rgb(20, 20, 20);
+    background-image: url('../Assets/brokenglass.png');
+    opacity: 0.95;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding: 10px 0;
+}
+
+.time-card{
+    border: 2px solid red;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    font-family: "Great Vibes";
+    font-weight: lighter;
+    font-style: italic;
+    transform: rotate(-10deg);
+}
+
+.contact-address{
+    align-self: center;
+}
+
+.contact-address h4{
+    padding-bottom: 4px;
+}
+
+.contact-address p{
+    padding-bottom: 25px;
+}
+
+.rights-text{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 4px;
+}
+
+.red-pin{
+    width: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .footer{
+        height: 450px;
+        padding: 0 10px;
+    }
+    .time-card{
+        font-size: 0.9rem;
+        width: 310px;
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .footer{
+        padding: 4px 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .footer{
+        padding: 4px 14px;
+    }
+}

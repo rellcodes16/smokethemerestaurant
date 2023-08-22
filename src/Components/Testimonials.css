@@ -1,0 +1,112 @@
+.testimonial{
+    min-height: 550px;
+    background: rgb(20, 20, 20);
+    padding: 20px 50px;
+}
+  
+.tesImg{
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+  
+.tes-swiper-container{
+    border-radius: 10px;
+    background: linear-gradient(white, red);
+    text-align: center;
+    padding: 15px 5px;
+    margin-top: 35px;
+    width: 240px;
+    height: 310px;
+    overflow: hidden;
+    /* box-shadow: 7px 5px 15px rgba(226, 151, 90, 0.2); */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+  
+.tes-text{
+    color: black;
+    font-size: 1.7rem;
+    font-style: italic;
+    padding: 5px;
+    margin: 3px;
+    padding-top: 20px;
+}
+  
+.tes-name{
+    color: white;
+    opacity: 0.7;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: end;
+    padding-right: 2px;
+    margin-top: 90px;
+}
+  
+.testimonial-container .title{
+    color: black;
+    text-align: center;
+}
+  
+.testimonial-container .title .heading{
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    color: white;
+}
+  
+.testimonial-container .title .sub-heading{
+    padding: 4px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+.swiper-container{
+    width: 480px;
+}
+
+@media screen and (min-width: 640px){
+    .swiper-container{
+        width: 640px;
+    }
+}
+
+@media screen and (min-width: 480px){
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .swiper-container{
+        max-width: 480px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .swiper-container{
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .swiper-container{
+        max-width: 1024px;
+    }
+}
+
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+  }
+  
+:root{
+    --swiper-pagination-bottom: 4px;
+    --swiper-pagination-top: auto;
+}
+  
+.swiper-slide{
+    padding: 30px;
+}
+

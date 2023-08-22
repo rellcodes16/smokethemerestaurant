@@ -1,0 +1,164 @@
+:root{
+    --bg-color: rgb(20, 20, 20);
+    --red-color: red;
+}
+
+.menu{
+    padding: 90px;
+    background-color: var(--bg-color);
+    min-height: 600px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    gap: 8px;
+    max-width: 916px;
+    width: calc(100% - 20px);
+}
+
+.card{
+    overflow: hidden;
+    height: 240px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.card:hover{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.menu .heading{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+}
+
+.desc h4{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.popup{
+   margin-left: 31%;
+   background-color: red;
+   border: none;
+   outline: none;
+   padding: 6px;
+   border-radius: 18px;
+   color: white;
+   font-size: 1.4rem;
+   width: 120px;
+   cursor: pointer;
+}
+
+.menu-img{
+    width: 150px;
+    height: 100px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+
+body.active-modal1, body.active-modal2, body.active-modal3, body.active-modal4, body.active-modal5{
+    overflow-y: hidden;
+}
+body.active-modal6, body.active-modal7, body.active-modal8, body.active-modal9, body.active-modal10, body.active-modal11{
+    overflow-y: hidden;
+}
+
+.modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 20;
+}
+
+.overlay{
+    background: rgba(49, 49, 49, 0.6);
+}
+
+.modal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 12px 32px;
+    border-radius: 7px;
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 200px;
+    max-height: 700px;
+    margin: 50px auto;
+    width: 80%;
+    color: black;
+}
+
+.close-modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.close-modal:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+
+.desc-heading{
+    text-align: center;
+    font-family: "Great Vibes", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .cards{
+        padding-bottom: 3px;
+        display: grid;
+        justify-content: center;
+    }
+    .modal-content{
+        width: 400px;
+        height: 750px;
+    }
+    .card{
+        text-align: center;
+        width: 300px;
+        height: auto;
+        padding: 15px;
+    }
+    .menu-img{
+        width: 110px;
+        height: 80px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding-right: 100px;
+    }
+}

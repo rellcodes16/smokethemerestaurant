@@ -1,0 +1,25 @@
+.italics{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.bold-desc{
+    display: flex;
+    justify-content: space-between;
+    min-width: 330px;
+}
+
+.menu-desc{
+    border-bottom: 1px solid black;
+    padding: 4px;
+}
+
+.dish-name, .dish-price{
+    font-family: "Great Vibes", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+

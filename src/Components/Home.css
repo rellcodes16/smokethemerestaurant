@@ -1,0 +1,180 @@
+.home{
+    background-color: black;
+    min-height: 400px;
+    position: relative;
+    background-image: url('../Assets/20230816_200425_0000.png');
+    background-repeat: no-repeat;
+}
+  
+.home-container{
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.reserve{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+  
+#reserveBtn{
+    background: linear-gradient(red, white, red);
+    color: color;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    margin-top: 10px;
+}
+  
+#reserve:hover{
+    cursor: pointer;
+}
+  
+.home-container .home-heading{
+    font-size: 2.8rem;
+    line-height: 2.9rem;
+}
+  
+  
+  
+.steak-platter{
+    width: 620px;
+    height: auto;
+    transform: rotate(-130deg);
+}
+
+.modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 20;
+}
+
+.overlay{
+    background: rgba(49, 49, 49, 0.6);
+}
+
+.modal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 5px 32px;
+    border-radius: 7px;
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 200px;
+    max-height: 700px;
+    margin: 50px auto;
+    width: 80%;
+    color: black;
+}
+
+.close-modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.close-modal:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+
+.desc-heading{
+    text-align: center;
+    font-family: "Great Vibes", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .home{
+        color: white;
+        background-image: none;
+    }
+    .steak-platter{
+        position: relative;
+        top: 0;
+        right: 70px;
+        width: 550px;
+        opacity: 0.6;
+    }
+    .left{
+        position: absolute;
+        top: 50%;
+        padding: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 20;
+    }
+    .home-heading{
+        word-wrap: normal;
+    }
+}
+  
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .home{
+        color: white;
+        background-image: none;
+    }
+    .steak-platter{
+        position: relative;
+        top: 0;
+        right: 70px;
+        width: 550px;
+        opacity: 0.6;
+    }
+    .left{
+        position: absolute;
+        top: 50%;
+        padding: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 20;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .home{
+        color: white;
+        background-image: none;
+    }
+    .steak-platter{
+        position: relative;
+        top: 0;
+        right: 70px;
+        width: 550px;
+        opacity: 0.6;
+    }
+    .left{
+        position: absolute;
+        top: 50%;
+        padding: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 20;
+    }
+    .home-heading{
+        font-size: 2.8rem;
+        line-height: 2.9rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .home{
+        padding: 0 27px 0 27px;
+    }
+}
+  

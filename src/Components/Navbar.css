@@ -1,0 +1,117 @@
+.navbar{
+    background-color: black;
+    min-height: 62px;
+}
+  
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding: 10px 0;
+}
+.navbar-menu-container {
+    display: none;
+}
+.navbar-links-container .link {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-links-container .link:hover{
+    color: red;
+}
+  
+.navbar-menu-container svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+  
+.tel{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-left: 4px;
+    border-radius: 45%;
+    background-color: red;
+    padding: 10px;
+    border: white;
+    text-align: center;
+}
+
+.tel a{
+    color: white;
+}
+  
+.steak-slice{
+    width: 40px;
+    height: 38px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .nav-logo-container {
+        max-width: 140px;
+    }
+    .navbar-links-container {
+        display: none;
+    }   
+    .navbar-menu-container {
+        display: flex;
+    }
+    .navbar{
+        padding: 0 5px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .nav-logo-container {
+        max-width: 140px;
+    }
+    .navbar-links-container {
+        display: none;
+    }   
+    .navbar-menu-container {
+        display: flex;
+    }
+    .navbar{
+        padding: 0 5px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .nav-logo-container {
+        max-width: 140px;
+    }
+    .navbar-links-container {
+        display: none;
+    }   
+    .navbar-menu-container {
+        display: flex;
+    }
+    .navbar{
+        padding: 0 5px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .nav-logo-container {
+        max-width: 140px;
+    }
+    .navbar-links-container {
+        display: none;
+    }   
+    .navbar-menu-container {
+        display: flex;
+    }
+    .navbar{
+        padding: 0 5px;
+    }
+}
+  
